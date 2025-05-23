@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('registroForm');
-    const mensaje = document.getElementById('mensaje');
+    const mensaje = document.getElementById('mensajeResultado'); // Corregido
     const fotoInput = document.getElementById('fotografia');
     const fotoPreview = document.getElementById('fotoPreview');
 
