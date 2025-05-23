@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Validar campos requeridos
         const formData = new FormData(form);
-        const camposObligatorios = ['identificacion', 'nombre', 'fechaNacimiento', 'genero', 'telefono', 'correo'];
+        const camposObligatorios = ['identificacion', 'nombres', 'fechaNacimiento', 'genero', 'telefono', 'correo'];
         let camposVacios = camposObligatorios.filter(campo => !formData.get(campo));
 
         if (camposVacios.length > 0) {
